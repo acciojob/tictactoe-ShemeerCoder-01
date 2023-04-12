@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+body{
+	overflow-x: hidden;
+}
+.btn{
+	padding:10px;
+	width:200px;
+	background:white;
+	border-radius:7px;
+}
+.gameBoard{
+	display:grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows:100px 100px 100px;
+}
+.box{
+	border:1px solid black;
+	background:#FFC0CB;
+}
+#gamePage{
+	display:none;
+	position:relative;
+	left:200px;
+}
