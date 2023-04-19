@@ -22,3 +22,7 @@ body{
 	position:relative;
 	left:200px;
 }
+#message{
+	margin-left:10px;
+	padding:5px;
+}
