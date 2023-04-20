@@ -9,6 +9,8 @@ let isUser2 = false;
 let resArr = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [1, 4, 7], [2, 5, 8], [3, 6, 9], [1, 5, 9], [3, 5, 7]];
 let msg = document.getElementById("message");
 let user1, user2;
+let player1 = document.getElementById("player-1");
+let player2 = document.getElementById("player-2");
 function getData() {
     user1 = document.getElementById("player-1").value;
     user2 = document.getElementById("player-2").value;
